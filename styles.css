@@ -1,0 +1,75 @@
+
+
+#container{
+    display: flex;
+    flex-flow: row;
+    width: 85%;
+    height: 200px;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    overflow-y: auto;
+   
+}
+
+#container::-webkit-scrollbar{
+
+    width: 500px;
+    height: 20px;
+    
+} 
+
+  #container::-webkit-scrollbar:hover {
+    cursor: pointer;
+    box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
+    
+} 
+ 
+.adulto{
+    opacity: 0.8;
+}
+
+img{
+    display: block;
+    width: 120px;
+    height: 120px;
+
+}
+
+.volver{
+    position: relative;
+    top: 30px;
+    left: 8px;
+    background: transparent;
+    color: #ccc;
+    cursor: pointer;
+    transition: 300ms;
+}
+
+.volver:hover{
+    
+    opacity: 0.8;
+}
+
+#boton{
+    background: transparent;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+
+#boton:hover{
+   opacity: 0.8;
+}
+
+
+.caja{
+    cursor: pointer;
+}
+
+.caja:hover{
+    opacity: 0.8;
+}
+
